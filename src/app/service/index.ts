@@ -18,8 +18,6 @@ export const getUser = async (page: number, limit: number) => {
     return data;
 };
 
-
-
 export const addUser = async (data: UserProps) => {
     const res = await fetch(
         `${baseURL}${url_user}`,
